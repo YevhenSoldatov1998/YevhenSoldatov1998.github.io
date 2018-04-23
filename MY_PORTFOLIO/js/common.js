@@ -76,7 +76,7 @@ $(window).scroll(function(){
        
    	});
 
-$(window).load('load',function() { 
-	$(".loaderInner").delay(800).fadeOut(); 
-	$(".loader").delay(800).fadeOut("slow"); 
+$(window).on('load',function() { 
+	$(".loaderInner").delay(400).fadeOut(); 
+	$(".loader").delay(400).fadeOut("slow"); 
 });
