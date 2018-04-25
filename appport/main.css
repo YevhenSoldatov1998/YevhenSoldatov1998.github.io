@@ -19,30 +19,7 @@
 	color: #666;
 	opacity: 1;
 }
-.loader {
-    background: none repeat scroll 0 0 #ffffff;
-    bottom: 0;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-}
-.loaderInner {
-    background-image: url("img/preloader.gif");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #fff;
-    height: 400px;
-    width: 300px;
-    margin-top: 100px;
-    left: 50%;
-    margin-left: -150px;
-    top: 0;
-    position: absolute;
-}
+
 
 .text-up{
 	text-transform: uppercase;
@@ -760,7 +737,7 @@ footer p{
   right: 0;
   left: 0;
   z-index: 200;
-  background-color: #222;
+  background-color: #fafafa;
 }
 .preloader .pulse{
    position: relative;
