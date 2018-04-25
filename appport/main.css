@@ -868,15 +868,7 @@ font-size: 10px;	}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.carousel-caption>.h1{
-		font-size: 30px;
-	}
-	.carousel-caption{
-		top: 18%;
-	}
-	.btn-lg, .btn-group-lg > .btn{
-		padding: 10px;
-	}
+	
 	.category .category_item a{
 		font-size: 15px;
 	}
@@ -922,14 +914,16 @@ font-size: 10px;	}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.carousel-caption
-	{
-		right: 22%;
-		left: 12%;
+	.demo-1 p{
+font-size: 13px;
+margin-left: -169px;
 	}
-	.carousel-caption>.h1{
-		font-size: 26px;
+	
+	.demo-1 img{
+width: 220px;
+margin-left: -110px;
 	}
+	
 	.s_summary{
 		margin-top: 165px;
 	}
@@ -948,26 +942,37 @@ font-size: 10px;	}
 	.callback_button img{
 		width: 55px;
 	}
-
+.category .category_item a{
+	font-size: 13px;}
 	/*Disable Animation on Mobile Devices*/
 	
 }
 
 @media only screen and (max-width : 480px) {
-	.carousel-caption{
-		right: 20px;
-	}
-	.carousel-caption>.btn_small{
-		width: 105px;
-		height: 35px;
-		line-height: 35px;
-		margin: 0;
-		padding: 0;
-		font-size: 13px;
+	.category .category_item a{
+		font-size: 10px;
 	}
 	.s_summary .dodatok{
 		padding: 0px 10px 40px 10px;
 	}
+	.s_summary .dodatok p{
+		font-size: 13px;
+	}
+	.s_summary .dodatok p{
+		font-size: 13px;
+	}
+
+.demo-1 .content .main-title{
+		font-size: 22px;
+	}
+.demo-1 p{
+	font-size: 10px;
+	margin-left: -135px;
+}
+.demo-1 img{
+	width: 180px;
+	margin-left: -90px;
+}
 	.s_summary .dodatok p{
 		font-size: 13px;
 	}
