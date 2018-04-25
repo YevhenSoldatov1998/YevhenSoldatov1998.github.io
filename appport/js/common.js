@@ -50,16 +50,9 @@ $(window).scroll(function(){
 
 	$(document).scroll(function(){
 
-   		if($(document).scrollTop()> 200){
-
-        $('.navbar-inverse').addClass('fixed');
- }
-       else{
-       	$('.navbar-inverse').removeClass('fixed');
-       }
-       
+   		
        if($(document).width()> 992){
-       	if($(document).scrollTop() > $('.slider').height() -25){
+       	if($(document).scrollTop() > $('.demo-1').height() +25){
         $('.category').addClass('category_fixed');
        }
        else{
