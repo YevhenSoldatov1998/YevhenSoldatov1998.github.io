@@ -71,6 +71,6 @@ $(window).scroll(function(){
 
 $(window).on('load', function(){
  
-  $('.preloader').delay(1000).fadeOut('slow');
+  $('.preloader').delay(100).fadeOut('slow');
 
 })
