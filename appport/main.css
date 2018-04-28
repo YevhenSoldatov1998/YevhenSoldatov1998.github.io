@@ -88,11 +88,13 @@ h1{
 width: 100%;
 }
 .demo-1 h1{
-	white-space: nowrap;
+white-space: nowrap;
+font-weight: 700;
+	
 
 }
 .demo-1 p{
-	z-index: 100;
+z-index: 100;
 color: #4a4646;
 position: absolute;
 top: 50%;
