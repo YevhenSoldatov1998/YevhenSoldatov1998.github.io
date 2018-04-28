@@ -81,6 +81,9 @@ body{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 }
+h1{
+	font-size: 30px;
+}
 .main_head .demo-1{
 width: 100%;
 }
@@ -113,6 +116,7 @@ margin-left: -130px;
 position: absolute;
 top: 3%;
 left: 10%;
+width: 120px;
 z-index: 100;
 }
 
