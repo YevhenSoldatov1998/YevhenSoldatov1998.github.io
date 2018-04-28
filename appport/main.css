@@ -81,50 +81,42 @@ body{
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 }
-nav{
-	
+.main_head .demo-1{
+width: 100%;
 }
-.navbar-inverse{
-	margin-bottom: 0;
-	z-index: 80;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	-webkit-transition: all .4s ease;
-	-o-transition: all .4s ease;
-	transition: all .4s ease;
-	opacity: 1;
-	background-color: rgba(34,34,34,.8);
-	border: none;
-	border-bottom: 1px solid rgba(255,255,255,.1);
+.demo-1 h1{
+	white-space: nowrap;
 
 }
-.navbar-inverse:hover{
-	background-color: rgba(34,34,34,.88);
-	border-bottom: 1px solid rgba(255,255,255,.2);
+.demo-1 p{
+	z-index: 100;
+color: #4a4646;
+position: absolute;
+top: 50%;
+left: 50%;
+font-size: 16px;
+letter-spacing: 2px;
+margin-left: -199px;
+margin-top: 30px;
+text-transform: uppercase;
+}
+.demo-1 .image_content img{
+position: absolute;
+bottom: 0;
+left: 50%;
+width: 260px;
+z-index: -1;
+margin-left: -130px;
+}
 
-
+.demo-1 .logotype img{
+position: absolute;
+top: 3%;
+left: 10%;
+z-index: 100;
 }
 
 
-.navbar-brand > img {
-    width: 160px;
-    margin-top: -12px;
-}
-
-.navbar-inverse .navbar-nav > li > .lead{
-	font-size: 18px;
-	text-align: center;
-}
-.navbar-collapse> .navbar-nav{
-	margin-left: 20px;
-}
-.item>.third-slide
-{
-	width: 100%;
-    height: 100%;
-    background-size: cover;
-}
 
 .lead
 {
@@ -154,20 +146,8 @@ font-family: "Open Sans", sans-serif;
 	background-color: rgba(255,255,255,0.3);
 	border-radius: 10em;
 }
-.slider{
-margin-top: -20px;
-}
-.carousel-caption> p >a>.glyphicon
-{
-	margin-left: 5px;}
-.overlay
-{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(36,36,36,.66);
-}
+
+
 .fixed{
 	position: fixed;
 	top: -60px;
@@ -180,138 +160,7 @@ margin-top: -20px;
 {
 	margin-top: 20px;
 }
-.left_side{
-	margin-bottom: 20px;
-}
-.box .input-group-addon{
-	display: none;
-}
-.box_project .panel-heading{
-	padding: 5px 10px;
-	font-weight: 700;
-	font-size: 16px;
-	font-family: "Roboto", sans-serif;
-}
-.form-group .input-sm
-{
-	margin-bottom: 5px;
-}
-.box_project .form-group{
-	margin-bottom: 0;
-}
-.box_project .form-group .btn-default{
-	font-family: "Open Sans";
-    width: 100%;
-    font-size: 13px;
-    padding: 5px;
-    font-weight: bold;
-}
-.acide_carousel .carousel-indicators{
-    position: relative;
-}
 
-.acide_carousel .carousel-inner .item
-{
-	font-size: 13px;
-	height: 215px;
-	background-color: transparent;
-}
-.carousel_change 
-{
-    position: relative;
-    bottom: -4px;
-}
-
-.carousel_change .carousel-box{
-	padding: 7px 10px;
-	background-color: rgba(0,0,0,0.3);
-    border-radius: 10em;
-}
-#fact{
-	font-size: 18px;
-}
-.carousel_change .right{
-	position: absolute;
-    right: 0;
-    bottom: -5px;
-}
-.carousel_change .carousel-box .glyphicon{
-	color: #fff;
-}
-.gallery{
-	overflow-x: hidden;
-}
-.gallery-item> a >img{
- width: 100%;
- height: 100%;
- margin-left: 0;
- z-index: 10;
-
-}
-.gallery-item> a:hover{
-	-webkit-animation: scl .3s linear;
-	        animation: scl .3s linear;
-
-}
-
-.gallery-item> a{
-	display: inline-block;
-	margin-bottom: 10px;
-	width: 210px;
-	position: relative;	
-	-webkit-transform: scale(.98);	
-	    -ms-transform: scale(.98);	
-	        transform: scale(.98);
-
-}
-.gallery-item> a:before{
-		content: "";
-		position: absolute;	
-		width: 100%;
-		height: 100%;	
-	    background-color: rgba(243, 187,29,.1);
-	    -webkit-transition: background-color .4s ease;
-	    -o-transition: background-color .4s ease;
-	    transition: background-color .4s ease;
-
-
-	}
-@-webkit-keyframes scl{
-	0%{
-		-webkit-transform: scale(.98);
-		        transform: scale(.98);
-	}
-	50%{
-		-webkit-transform: scale(1);
-		        transform: scale(1);
-	}
-	100%{
-		-webkit-transform: scale(.98);
-		        transform: scale(.98);
-	}
-}
-@keyframes scl{
-	0%{
-		-webkit-transform: scale(.98);
-		        transform: scale(.98);
-	}
-	50%{
-		-webkit-transform: scale(1);
-		        transform: scale(1);
-	}
-	100%{
-		-webkit-transform: scale(.98);
-		        transform: scale(.98);
-	}
-}
-.gallery-item> a:hover:before
-
-{
-	background-color: rgba(24, 191,199, 0);
-
-
-
-}
 
 #yak1> h1
 {
@@ -319,9 +168,7 @@ border-bottom: 1px solid #eaeaea;
 padding-bottom: 25px;
 }
 
-.gallery>.row>.gallery-item{
-	margin-bottom: 20px;
-}
+
 .callback{
 	position: absolute;
 	width: 300px;
