@@ -1,0 +1,1238 @@
+@import url(reset.css);
+@import url(grid.css);
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url(Museo-Sans-Cyr/MuseoSansCyrl.otf);
+}
+
+body {
+    font-family : 'MuseoSans';
+    color: #19293e;
+    overflow-x: hidden;
+}
+
+.center {
+  text-align: center;
+}
+
+.font-light {
+  color:#FFF;
+}
+
+.logo {
+    text-align: left;
+    padding: 40px 0px;
+}
+
+.world {
+    background: url(img/world.png) no-repeat;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    max-height: 545px;
+    background-size: 200%;
+    top: 70px;
+    background-position: 115% 0%;
+    z-index: 1;
+}
+.sectionFive{
+    position: relative;
+    top: 200px;
+}
+.ssm12 .img img{
+    width: 80%;
+}
+
+.pcOne {
+    background: url(img/pc1.png) no-repeat;
+    position: absolute;
+    width: 45%;
+    right: 0px;
+    top: 40px;
+    height: 100%;
+   max-height: 653px;
+    background-size: cover;
+    z-index: 1;
+    background-position-x: 36px;
+}
+
+.sectionOne .container {
+    position: relative;
+    z-index: 2;
+    padding: 120px 0px;
+}
+
+.sectionOne h1 {
+    color: #19293e;
+    font-size: 48px;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+ .selectFoure{
+    position: relative;
+    top: 370px;
+ }
+ .selectFoure .ssm12{
+    position: relative;
+ }
+.button_mine {
+    width: 158px;
+    height: 51px;
+    box-shadow: 0 3px 3px rgba(76, 193, 239, 0.32);
+    border-radius: 2px;
+    background-color: #4cc1ef;
+    display: inline-block;
+    line-height: 51px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.3s;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.button_mine:hover{
+    background: #3CB4E3;
+    transition: 0.3s;
+}
+
+.button_mine_light {
+    min-width: 158px;
+    height: 51px;
+    border-radius: 2px;
+    background-color: rgba(76, 193, 239, 0.1);
+    display: inline-block;
+    line-height: 51px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #4cc1ef;
+    transition: 0.3s;
+    padding: 0px 32px;
+    margin: 0px 25px;
+    text-align: center;
+}
+
+.button_mine_light:hover {
+    background: rgba(76, 193, 239, 0.400);
+    transition: 0.3s;
+}
+
+.buttons {
+    width: 50%;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.pre-sale-block span {
+  font-size: 18px;
+  line-height: 1.4;
+  display: block;
+}
+
+.sectionTwo {
+    padding: 180px 0px;
+    padding-bottom: 245px;
+    margin-top: 80px;
+}
+
+.sectionTwo h2 {
+    font-size: 48px;
+    color: #19293e;
+    line-height: 63.84px;
+}
+.sectionTwo .box {
+    min-height: 243px;
+    text-align: left;
+    padding: 0px 55px;
+}
+.sectionTwo .box h4 {
+    text-align: left;
+    color: #19293e;
+    font-size: 20px;
+    line-height: 26.6px;
+}
+.sectionTwo .box p {
+        font-size: 14px;
+    line-height: 23.24px;
+}
+
+.bubble {
+    display: block;
+        border-radius: 50%;
+    width: 104px;
+    height: 104px;
+    background-image: linear-gradient(219deg, #1f65b233 0%, rgba(216, 216, 216, 0) 100%);
+    margin: 10px 0px;
+    position: relative;
+    }
+
+    .bubble img {
+        width: 32px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .sectionThree {
+        background: url(img/business.png) no-repeat;
+        height: 583px;
+        position: relative;
+        padding-top: 180px;
+        padding-bottom: 12px;
+        background-position: center;
+    }
+
+    .sectionThree::before {
+        content: "";
+        width: 338px;
+        height: 394px;
+        position: absolute;
+        background: url(img/path.png) no-repeat;
+        background-size: 100%;
+        background-position: 100%;
+        left: -200px;
+        top: 28px;
+    }
+
+    .sectionThree::after {
+        content: "";
+        width: 26%;
+        height: 566px;
+        position: absolute;
+        background: url(img/path.png) no-repeat;
+        background-size: 150%;
+        background-position: 91%;
+        background-position-x: 110px;
+        bottom: 0px;
+        right: 0px;
+        z-index: 1;
+    }
+
+    .sectionThree .text{
+        color: #fff;
+        max-width: 640px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .text p{
+        color: #ffffff;
+        font-size: 14px;
+        line-height: 23.24px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .text h2 {
+            color: #ffffff;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+    margin: 20px 0px;
+
+    }
+
+    .selectFoure {
+        margin-top: 267px;
+    }
+
+    .four_text {
+        max-width: 640px;
+        float: right;
+        text-align: left;
+    }
+
+    .four_text h2 {
+    color: #19293e;
+    font-size: 48px;
+    line-height: 63.84px;
+    margin-bottom: 40px;
+    }
+
+    .four_text li{
+
+        list-style-type: none;
+        text-align: left;
+        font-size: 14px;
+    line-height: 23.24px;
+    position: relative;
+    }
+    .four_text li::before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: #fff;
+        border-radius: 50%;
+        border:  2px solid #ffcc4c;
+        left: -18px;
+        top: 5px;
+
+    }
+
+    .m-l-36 {
+      margin-left: 38px;
+    }
+
+    .crad {
+        width: 317px;
+        height: 429px;
+        box-shadow: 0 24px 40px rgba(27, 56, 91, 0.08);
+        border-radius: 8px;
+        background-color: #ffcc4c;
+        vertical-align: middle;
+        position: relative;
+        z-index: 3;
+        margin-left: 8%;
+    }
+
+    .crad img{
+     margin: 50px 0px;
+    }
+
+    .card_text {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 26.6px;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    }
+
+    .bg_foure {
+        position: relative;
+        z-index: 2;
+        padding-top: 92px;
+        left: 50%;
+        margin-left: -168px;
+    }
+
+    .bg_foure::before {
+        content: "";
+        background: url(img/lg2.png) no-repeat;
+        position: absolute;
+        width: 80%;
+         height: 900px;
+         z-index: 1;
+       right: 0px;
+       top: -34%;
+
+    }
+
+
+
+.sectionFive::before {
+    content: "";
+    background: url(img/netbook.png) no-repeat;
+    position: absolute;
+    width: 85%;
+    left: -21%;
+    top: -57px;
+    height: 117%;
+    background-size: cover;
+    z-index: 1;
+    background-position-x: 21px;
+    background-size: 85%;
+}
+    .sectionFive {
+        margin-top: 420px;
+        position: relative;
+    }
+
+   .textFive {
+        max-width: 548px;
+        text-align: left;
+    }
+
+   .sectionFive  li{
+
+        list-style-type: none;
+        text-align: left;
+        font-size: 14px;
+    line-height: 23.24px;
+    position: relative;
+    }
+    .sectionFive   li::before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: #fff;
+        border-radius: 50%;
+        border:  2px solid #ffcc4c;
+        left: -18px;
+        top: 5px;
+
+    }
+
+    .sectionFive h2 {
+    font-size: 48px;
+    line-height: 63.84px;
+    max-width: 624px;
+    margin: 40px 0px;
+
+    }
+
+    .textFive h4 {
+
+    color: #19293e;
+    font-size: 20px;
+    line-height: 26.6px;
+    margin: 20px 0px;
+    text-align: left;
+    }
+
+    .textFive p {
+
+    font-size: 14px;
+    line-height: 23.24px;
+    }
+
+    .sectionSix, .video-section, .roadMap-section {
+        margin-top: 260px;
+    }
+
+    .sectionSix h2, .video-section h2, .roadMap-section h2 {
+    font-size: 48px;
+    line-height: 63.84px;
+    font-weight: bold;
+    text-align: center;
+    margin: 78px 0px;
+    }
+
+    .roadMap-section .container-fluid {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+.sectionSix .box {
+        border: 1px solid #eef2f5;
+        padding: 20px;
+        text-align: left;
+        min-height:  114px;
+        transition: 0.3s;
+        cursor: pointer;
+        background-position: center;
+}
+.sectionSix .box_1 {
+        border: 1px solid #eef2f5;
+        padding: 20px;
+        text-align: left;
+        min-height:  114px;
+        transition: 0.3s;
+        cursor: pointer;
+        background-position: center;
+}
+
+
+.activeBox , .sectionSix .box:hover {
+    box-shadow: 0 24px 40px -10px rgba(76, 193, 239, 0.36);
+    border: 1px solid #4cc1ef;
+background-color: #4cc1ef;
+transition: 0.3s;
+color: #fff;
+}
+.sectionSix .box_2:hover{
+    background-color: #fff;
+}
+
+.sectionSix h5{
+    font-size: 20px;
+    line-height: 26.6px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sectionSix .bold-header{
+    font-weight: bold;
+    color:red;
+}
+.sectionSix span {
+    display: block;
+    line-height: 22px;
+}
+
+.sectionSixBoxes {
+    max-width: 1500px;
+}
+
+.sectionSeven_box {
+    box-shadow: 0 24px 40px rgba(27, 56, 91, 0.08);
+border-radius: 8px;
+background-color: #ffcc4c;
+}
+
+.sectionSeven {
+    margin-top: 165px;
+}
+
+
+.sectionSeven_box {
+    padding: 20px 50px;
+
+}
+
+
+.sectionSeven h2{
+    font-size: 48px;
+    line-height: 63.84px;
+    font-weight: bold;
+    text-align: center;
+    margin: 78px 0px;
+    }
+
+.light_buttons .button_mine {
+    box-shadow: 0px 0px 0px;
+    width: auto;
+    padding: 0px 30px;
+    margin: auto;
+    font-weight: bold;
+    margin: 4px 10px;
+}
+
+.right {
+  float:right;
+}
+
+.light_buttons .button_mine:last-child {
+  background: #fff;
+  color:#4cc1ef;
+}
+
+.light_buttons .button_mine:hover {
+    background: #dcdcdc;
+}
+
+
+.box1 {
+    padding: 20px 40px;
+    padding-left: 100px;
+}
+.box1 span{
+color: #fff;
+display: block;
+font-size: 20px;
+line-height: 26.6px;
+font-weight: bold;
+text-align: left;
+margin: 8px 0px;
+}
+
+.box2 {
+    width: 70%;
+    margin: auto;
+}
+
+.box2 span{
+    display: block;
+    font-size: 20px;
+    line-height: 26.6px;
+    font-weight: bold;
+    text-align: left;
+    margin: 4px 0px;
+    }
+
+.socials {
+    margin: 120px auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.socials a {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    margin: 8px;
+    display: inline-block;
+    line-height: 48px;
+    transition: 0.3s;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.socials a:hover {
+    transition: 0.3s;
+    box-shadow: 0px 0px 6px #000;
+}
+
+.sectionEight {
+    margin-top: 160px;
+}
+
+
+.sectionEight h2 {
+    color: #19293e;
+font-size: 48px;
+line-height: 63.84px;
+margin-bottom: 40px;
+}
+
+.social_1 {
+    background-color: #f69222;
+}
+
+.social_2 {
+    background-color: #1da1f3;
+}
+.social_3 {
+    background-color: #323131;
+}
+.social_4 {
+    background-color: #7289da;
+}
+.social_5 {
+    background-color: #00a1d8;
+}
+.OS{
+    padding: 80px 0px;
+}
+.OS img{
+    width: 70px;
+}
+.OS .row{
+    text-align: center;
+    word-spacing: 0px;
+    padding: 25px 0px;
+}
+.OS span{
+    line-height: 18.62px;
+    font-size: 14px;
+    color: #19293e;
+}.OS .buttons_blue{margin-top: 55px;
+}
+.OS .button_blue{
+text-transform: uppercase;
+position: relative;
+left: 50%;
+margin-left: -140px;
+width: 280px;
+height: 51px;
+color: #fff;
+font-size: 14px;
+padding: 15px 30px;
+box-shadow: 0 3px 3px rgba(76, 193, 239, 0.32);
+border-radius: 2px;
+white-space: nowrap;
+background-color: #4cc1ef;
+transition: all .3s linear;
+}
+.OS .button_blue:hover{
+    background-color: #0078d6;
+
+}
+.Premine{
+    padding-left: 40px;
+}
+.Premine .wrap{
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+.Premine h3{
+    color: #19293e;
+    font-size: 38px;
+    line-height: 64px;
+    padding-bottom: 80px;
+
+}
+.Premine .order1{
+    width: 600px;
+}
+.Premine .order2{
+    position:absolute;
+    top: 175px ;
+    width: 440px;
+}
+.Premine .t{
+font-size: 12px;
+line-height: 19.9px;
+color: #19293e;
+position: relative;
+}
+.Premine .t1{
+    top: 0px;
+}
+.Premine .t2{
+    top: 87px;
+}
+.Premine .t3{
+    top: 113px;
+}.Premine .t4{
+    top: 143px;
+}
+.Premine .t5{
+    top: 132px ;
+    left: 50%;
+}
+.Premine .t strong{
+    font-weight: bold;
+}
+.sectionSix .box_2{
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.BlocksTeh{
+    margin-top: 0;
+    position: relative;
+}
+.BlocksJoin{
+    margin-top: 70px;
+}
+.BlocksJoin .contentJust{
+    margin-left: -135px;
+}
+@media screen and (max-width:1660px){
+    .pcOne {
+        position: absolute;
+        width: 57%;
+        right: 0px;
+        top: 40px;
+        height: 100%;
+        max-height: 530px;
+        background-size: cover;
+        z-index: 1;
+        background-position-x: 36px;
+    }
+}
+
+
+
+@media screen and (max-width:1280px){
+        body {
+            padding: 0px 6px;
+        }
+        .four_text {
+            position: relative;
+            z-index: 3;
+        }
+        .selectFoure .ssm12{
+    position: relative;
+    top: -130px;
+ }
+ .sectionFive h2{
+    padding-top: 80px;
+}
+.Blocks{
+    position: relative;
+    top: 270px;
+}
+.Blocks h5{
+line-height: 22px;
+font-size: 18px;
+margin-bottom: 5px;}
+.BlocksTeh{
+    top: 300px;
+}
+.BlocksJoin{
+    position: relative;
+    top: 310px;
+}
+.light_buttons .buttonNew{
+    margin-left: -363px;
+}
+footer{
+    position: relative;
+    top: 340px;
+    padding-bottom: 15px;
+}
+
+        .sectionSeven h2, .sectionEight h2, .sectionSix h2, .video-section h2, .roadMap-section h2, .sectionFive h2, .sectionTwo h2, .four_text h2, .sectionOne h1, .text h2 {
+            margin: 20px 0px;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .light_buttons .button_mine, .sectionTwo .box, .sectionTwo, .button_mine_light, .sectionThree {
+            padding: 0px 16px;
+        }
+
+        .sectionEight, .socials, .sectionSeven, .sectionTwo, .selectFoure, .sectionSix, .sectionFive {
+            margin: 40px 0px ;
+            margin-top: 40px;
+        }
+
+        .sectionThree .text {
+            margin-top: 60px;
+        }
+
+        .sectionThree::before, .bg_foure::before {
+            display: none;
+        }
+
+        .sectionFive::before  {
+            top: 30%;
+        }
+
+        .buttons {
+            width: 55%;
+            text-align: center;
+        }
+
+        .box1 {
+            padding-left: 40px;
+        }
+
+        .box2 {
+            width: 100%;
+        }
+        .sectionThree .img{
+            margin-top: 14%;
+        }
+
+        .crad {
+            width: 92%;
+            height: 370px;
+            max-width: 317px;
+        }
+
+        .sectionThree {
+            height: initial;
+        }
+
+        .pcOne {
+            min-height: 400px;
+        }
+}
+
+@media screen and (max-width:992px) {
+    .light_buttons .buttonNew{
+        margin-left: -150px;
+    }
+}
+@media screen and  (min-width:510px) and (max-width:920px) {
+  .Premine h3{
+    font-size: 30px;
+    padding-bottom: 35px;
+  }
+    .Premine .col_p{
+        padding-top: 35px;
+    }
+    .Premine .order2{
+   
+    width: 400px;
+    left: 50%;
+
+    margin-left: -170px;
+}
+.Premine .t{
+font-size: 12px;
+ left: 50%;
+    margin-left: -172px;
+}
+.Premine .t1{
+    top: 0px;
+}
+.Premine .t2{
+    top: 68px;
+    
+}
+.Premine .t3{
+    top: 80px;
+    
+}
+.Premine .t4{
+    top: 89px;
+    left: 50%;
+}
+.Premine .t5{
+    top: 101px ;
+    left: 80%;
+}
+.selectFoure{
+    top: 240px;
+}
+.crad{
+    width: 38%;
+    height: 327px;
+}
+.bg_foure{
+    padding-top: 120px;
+    left: 70%;
+}
+.sectionFive{
+    top: 80px;
+}
+.Blocks{
+    top: 70px;
+}
+.BlocksTeh{
+    top: 100px ;
+}
+.BlocksJoin{
+    top: 110px;
+}
+.contentJust h3{
+ font-size: 16px;
+}
+.contentJust span{
+ font-size: 15px;
+}
+.light_buttons .buttonNew{
+    margin-left: 0;
+}
+footer{
+    top: 130px;
+}
+    .buttons {
+        width: 69%;
+
+    }
+    .sectionOne h1 {
+        width: 61%;
+    }
+
+    .sectionTwo h2 {
+        padding-top: 20px;
+    }
+
+    .sectionThree .img img {
+        margin-top: 100px;
+
+    }
+
+    .sectionSix .box {
+        padding: 5px;
+    }
+
+    .sectionSix .s2 {
+        width: 19%;
+    }
+.sectionSix .ww{
+    width: 25%;
+}
+    .sectionFive::before {
+        display: none;
+    }
+
+    .textFive {
+        max-width: initial;
+        padding: 15px;
+    }
+
+    .sectionSix h5 {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .sectionSix span {
+        display: block;
+        padding: 4px;
+        line-height: 22px;
+    }
+
+    .sectionSix .box {
+        min-height: 144px;
+    }
+
+
+    .light_buttons {
+        width: auto;
+        padding: 0px;
+    }
+
+    .box1 {
+        padding: 10px;
+    }
+
+    .sectionSeven_box {
+        padding: 15px 20px;
+    }
+
+    .logo img {
+        padding-left: 8px;
+    }
+
+    .sectionEight {
+        padding: 15px;
+    }
+
+    .box2 span {
+        display: block;
+    font-size: 18px;
+    line-height: 29.6px;
+    font-weight: bold;
+    text-align: left;
+    margin: 4px 0px;
+    }
+
+
+    .buttons  a {
+        margin: 10px 5px;
+    }
+
+
+}
+@media screen and (max-width:762px){
+    .BlocksJoin .contentJust{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and  (min-width:510px) and (max-width:680px) {
+ .BlocksJoin span{
+line-height: 16px;
+ }
+.BlocksJoin .buttonNew{
+      position: relative;
+    left: 6%;
+    margin-left: -160px;
+}
+ .BlocksJoin .right{
+    position: relative;
+    left: -6%;
+    margin-left: -72px;
+ }
+    .pcOne {
+        top: 104px;
+        min-height: 176px;
+        left: 0px;
+        height: 243px;
+        width: 82%;
+        margin: auto;
+        background-size: 80%;
+        background-position: center;
+    }
+.text p{
+    font-size: 12px;
+}
+    .sectionOne h1 {
+        width: 100%;
+        margin-top: 110px;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    .sectionOne .container {
+        padding-bottom: 50px;
+    }
+    .four_text h2{
+    line-height: 25px;
+    font-size: 18px;
+}
+.four_text li{
+    font-size: 12px;
+    line-height: 20px;
+}
+.sectionFive{
+    top: 80px;
+}
+
+}
+
+@media screen and (max-width:509px) {
+    body {
+        padding: 0px 6px;
+    }
+
+    .box1 , .sectionSeven_box , .light_buttons, .sectionOne .container, .logo , .bg_foure, .sectionSix .box {
+        padding: 4px;
+    }
+
+    .light_buttons .button_mine, .sectionTwo .box, .sectionTwo, .button_mine_light, .sectionSeven , .sectionSix , .sectionThree, .sectionFive, .sectionEight {
+        padding: 0px 12px;
+    }
+
+    .light_buttons .button_mine {
+        margin: 13px 14px;
+    }
+    .button_mine:last-child {
+      width: auto;
+      float: none;
+    }
+
+    .sectionSeven h2, .sectionEight h2, .sectionSix h2, .video-section h2, .roadMap-section h2, .sectionFive h2, .sectionTwo h2, .four_text h2, .sectionOne h1, .text h2 {
+        margin: 25px 0px;
+        font-size: 25px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .box2, .sectionOne h1, .buttons {
+        width: 100%;
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+    .button_mine , .button_mine_light {
+        margin: 20px auto;
+        display: block;
+        width: 80%;
+        padding: 0px;
+
+    }
+
+    .bubble img {
+        width: 32px;
+        position: absolute;
+        left: 34%;
+        bottom: 38%;
+    }
+
+    .sectionSix .box span {
+        display: block;
+        margin: 8px 0px;
+    }
+
+    .sectionSix .box{
+        padding: 6px;
+    }
+
+    .sectionEight, .socials, .roadMap-section, .video-section, .sectionSeven, .sectionTwo, .selectFoure, .sectionSix, .sectionFive {
+        margin: 30px 0px ;
+        margin-top: 20px;
+    }
+
+    .pcOne , .sectionThree::before, .crad, .bg_foure::before, .sectionFive::before, .sectionThree::after{
+        display: none;
+    }
+
+    .sectionThree, .bg_foure {
+        background: none;
+    }
+
+    .text h2, .text p {
+        color: #19293e;
+    }
+
+    .four_text {
+        float: initial;
+    }
+
+    .selectFoure {
+        /* margin-top: 200px; */
+    }
+
+
+    .socials a {
+        margin: 5px;
+    }
+
+    .logo {
+        padding: 9px;
+    }
+
+
+    .sectionTwo  .bubble {
+        margin: auto;
+    }
+
+
+    .sectionTwo .box h4 {
+        text-align: center;
+    }
+
+    .sectionTwo .box p {
+        text-align: center;
+    }
+
+    .ssm-inline {
+        display: inline;
+    }
+.ssm12 .img img{
+    width: 100%;
+    cursor: pointer;
+ }
+ .OS{
+    padding-top: 0px;
+ }
+ .Premine{
+    padding-left: 0;
+ }
+ .Premine h3{
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 20px;
+ }
+ .Premine .order1{
+    width: 400px;
+ }
+ .Premine .order2{
+   
+    width: 290px;
+    left: 60%;
+    margin-left: -170px;
+    top: 120px;
+}
+.Premine .t{
+   font-size: 9px;
+   left: 60%;
+   line-height: 12px ;
+   word-spacing: -0.9px;
+    margin-left: -167px;
+}
+
+.Premine .t1{
+    top: 7px;
+}
+.Premine .t2{
+    top: 68px;
+    
+}
+.Premine .t3{
+    top: 84px;
+    
+}
+.Premine .t4{
+    top: 107px;
+    left: 60%;
+}
+.Premine .t5{
+    top: 125px ;
+    left: 95%;
+}
+.four_text li{
+    font-size: 12px;
+}
+.selectFoure{
+    top: 290px;
+}
+.sectionFive h2{
+    padding-top:0px;
+    margin-top: -20px;
+
+}
+.Blocks{
+    top: 200px ;
+}
+.sectionSix h5{
+    font-size: 16px;
+}
+.sectionSix span{
+    line-height: 15px;
+    font-size: 14px;
+}
+.BlocksTeh{
+    top: 220px;
+}
+.BlocksJoin{
+    top: 210px;
+}
+.BlocksJoin .contentJust{
+    margin-left: -20px;
+}footer{
+    top: 230px;
+}
+}
+ 
+ @media screen and (max-width:420px) {
+    .sectionSix h5 {
+    font-size: 14px;
+    line-height: 14px;
+}
+.BlocksTeh{
+   top: 200px;
+}
+.BlocksJoin h2{
+    font-size: 24px;
+}
+}
