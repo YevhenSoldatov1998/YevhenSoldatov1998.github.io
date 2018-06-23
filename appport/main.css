@@ -586,16 +586,7 @@ footer p{
     border-radius: 500px;
     position: absolute;
 }
-.preloader .pulse::before{
-     content: '\f1ce';
-     font-size: 80px;
-     font-weight: 100;
-     line-height: 80px;
-     position: absolute;
-     font-family: fontawesome;
-     -webkit-animation: pulse-outer .8s ease-in infinite;
-             animation: pulse-outer .8s ease-in infinite;
- }
+
  .preloader .pulse::after{
     -webkit-animation: pulse-inner .8s linear infinite;
             animation: pulse-inner .8s linear infinite;
