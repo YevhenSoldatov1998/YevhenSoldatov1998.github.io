@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="189px" viewBox="0 0 189 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>E689FEC5-B55C-4BC0-9508-34686FB7DB96</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="-24.4695848%" y1="71.7110741%" x2="119.672733%" y2="64.3202162%" id="linearGradient-1">
+            <stop stop-color="#680ED0" offset="0%"></stop>
+            <stop stop-color="#0F68D6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="74.4954427%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F21E70" offset="0%"></stop>
+            <stop stop-color="#BF0606" offset="100%"></stop>
+        </linearGradient>
+        <path d="M86.04225,8.595 C85.9085,8.595 85.775,8.60875 85.64375,8.6355 C72.6105,11.3045 59.05,8.901 47.72775,1.9155 L45.08975,0.2955 C44.448,-0.09825 43.6395,-0.09825 42.99775,0.2955 L40.35975,1.9155 C29.0365,8.89825 15.476,11.29875 2.44375,8.6275 C1.3615,8.4065 0.305,9.10475 0.08425,10.187 C0.057,10.32075 0.0435,10.457 0.04375,10.5935 L0.04375,72.0735 C0.04025,79.9745 2.14175,87.734 6.13175,94.5535 C10.7005,102.40875 17.6495,108.60675 25.97375,112.2515 L43.24375,119.8255 C43.75375,120.04825 44.33375,120.04825 44.84375,119.8255 L62.11975,112.2515 C63.09175,111.8255 64.04775,111.3635 64.97975,110.8695 C65.95575,110.3515 66.32675,109.1405 65.80875,108.1645 C65.29075,107.1885 64.07975,106.8175 63.10375,107.3355 C62.2585,107.7835 61.395,108.20075 60.51375,108.5875 L44.04375,115.8095 L27.57975,108.5935 C20.02725,105.28425 13.7235,99.65825 9.57975,92.5295 C5.94875,86.32125 4.03775,79.2575 4.04375,72.0655 L4.04375,12.98325 C17.34875,15.10825 30.9745,12.38825 42.44375,5.31725 L44.04375,4.33925 L45.64375,5.31525 C57.1115,12.38975 70.7385,15.11075 84.04375,12.98325 L84.04375,72.06525 C84.04375,73.16975 84.93925,74.06525 86.04375,74.06525 C87.14825,74.06525 88.04375,73.16975 88.04375,72.06525 L88.04375,10.59325 C88.043,9.48875 87.147,8.594 86.04225,8.595 Z" id="path-3"></path>
+        <filter x="-18.2%" y="-11.7%" width="136.4%" height="126.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.929411765   0 0 0 0 0.0980392157   0 0 0 0 0.37254902  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M43.89825,15.01475 C43.38225,14.038 42.17225,13.6645 41.19575,14.1805 C41.144,14.20775 41.09325,14.2375 41.044,14.26925 C31.8185,19.6735 20.9345,21.51675 10.444,19.45125 C9.36175,19.23025 8.30525,19.9285 8.0845,21.01075 C8.0575,21.14325 8.044,21.278 8.044,21.41325 L8.044,69.19325 C8.04775,75.45425 9.786,81.592 13.066,86.92525 C16.89625,93.16975 22.603,98.0435 29.37,100.84925 C30.389,101.27625 31.561,100.79625 31.988,99.77725 C32.415,98.75825 31.935,97.58625 30.916,97.15925 C24.923,94.67675 19.8685,90.36225 16.476,84.83325 C13.58275,80.12925 12.04875,74.71575 12.044,69.19325 L12.044,23.78125 C22.7725,25.341 33.7125,23.20225 43.064,17.71725 C44.0405,17.2015 44.414,15.9915 43.89825,15.01475 Z" id="path-5"></path>
+        <filter x="-44.3%" y="-16.1%" width="188.7%" height="136.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.929411765   0 0 0 0 0.0980392157   0 0 0 0 0.37254902  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M93.26025,100.58575 C92.51075,99.9345 91.39675,99.9315 90.644,100.57925 L81.08,110.14325 C80.41325,109.94325 79.70275,109.94325 79.036,110.14325 L61.472,92.57925 C60.6775,91.812 59.41125,91.834 58.644,92.6285 C57.8955,93.4035 57.8955,94.63225 58.644,95.40725 L76.206,112.97125 C75.61375,115.07075 76.836,117.253 78.9355,117.845 C79.296,117.94675 79.66925,117.9965 80.044,117.99325 C82.25325,117.99325 84.044,116.2025 84.044,113.99325 C84.03925,113.6475 83.98875,113.30375 83.894,112.97125 L93.458,103.40725 C94.1825,102.5735 94.094,101.31025 93.26025,100.58575 Z" id="path-7"></path>
+        <filter x="-44.6%" y="-53.9%" width="189.2%" height="223.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.929411765   0 0 0 0 0.0980392157   0 0 0 0 0.37254902  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M75.458,44.57925 L67.458,36.57925 C66.677,35.7985 65.411,35.7985 64.63,36.57925 L40.044,61.16525 L33.458,54.57925 C32.677,53.7985 31.411,53.7985 30.63,54.57925 L22.63,62.57925 C21.84925,63.36025 21.84925,64.62625 22.63,65.40725 L38.63,81.40725 C39.005,81.78225 39.5135,81.99325 40.044,81.99325 C40.5745,81.99325 41.083,81.78225 41.458,81.40725 L75.458,47.40725 C76.23875,46.62625 76.23875,45.36025 75.458,44.57925 Z M40.044,77.16525 L26.88,63.99325 L32.044,58.82125 L38.644,65.40725 C39.425,66.188 40.691,66.188 41.472,65.40725 L66.044,40.82125 L71.224,45.99325 L40.044,77.16525 Z" id="path-9"></path>
+        <filter x="-29.6%" y="-30.4%" width="159.3%" height="169.6%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.929411765   0 0 0 0 0.0980392157   0 0 0 0 0.37254902  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-425.000000, -3178.000000)">
+            <g id="platform-01" transform="translate(425.000000, 3178.000000)">
+                <g id="icon-bg" opacity="0.300000012" stroke="url(#linearGradient-1)" stroke-width="2">
+                    <rect id="Rectangle-6" transform="translate(94.500000, 94.500000) rotate(-45.000000) translate(-94.500000, -94.500000) " x="40" y="40" width="109" height="109"></rect>
+                    <rect id="Rectangle-6" transform="translate(94.500000, 94.500000) rotate(-45.000000) translate(-94.500000, -94.500000) " x="29" y="29" width="131" height="131"></rect>
+                </g>
+                <g id="why-1" transform="translate(48.000000, 42.000000)" fill-rule="nonzero">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
