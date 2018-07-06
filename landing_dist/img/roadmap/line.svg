@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1140px" height="4px" viewBox="0 0 1140 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>66866C6E-38CF-4161-A7F0-95115F2D6251</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="78.0151367%" y1="0%" x2="28.7882487%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0F68D6" offset="0%"></stop>
+            <stop stop-color="#680ED0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.8956963%" y1="0%" x2="0%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#101011" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#101011" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="90.7517818%" y1="0%" x2="100%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#101011" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#101011" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="125" width="1140" height="4" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-390.000000, -5536.000000)">
+            <g id="roadmap" transform="translate(390.000000, 5411.000000)">
+                <g id="line">
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+                    <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="2000px" viewBox="0 0 1920 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>994248E5-043B-4441-8059-08DB82F6D255</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="78.219986%" fx="50%" fy="78.219986%" r="69.523255%" gradientTransform="translate(0.500000,0.782200),scale(1.000000,0.960000),rotate(90.000000),scale(1.000000,1.339037),translate(-0.500000,-0.782200)" id="radialGradient-1">
+            <stop stop-color="#680DE0" stop-opacity="0.232478487" offset="0%"></stop>
+            <stop stop-color="#171619" stop-opacity="0.5" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="87.2191406%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#171619" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#101011" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="1920" height="2000"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing">
+            <g id="big-bg-1">
+                <use fill="#171619" xlink:href="#path-3"></use>
+                <use fill="url(#radialGradient-1)" xlink:href="#path-3"></use>
+                <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

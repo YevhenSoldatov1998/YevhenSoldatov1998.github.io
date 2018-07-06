@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="768px" viewBox="0 0 960 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>7B2DBC5E-E458-4DF0-B6FF-385556DE6E7A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="73.5858445%" y1="6.49893245%" x2="27.6046317%" y2="81.2553377%" id="linearGradient-1">
+            <stop stop-color="#680DE0" offset="0%"></stop>
+            <stop stop-color="#0538BE" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L960,0 L960,214.574757 C960,225.452984 954.111269,235.478884 944.610255,240.776673 L0,767.493752 L0,0 Z" id="path-2"></path>
+        <linearGradient x1="55.1419891%" y1="14.3821023%" x2="18.8051835%" y2="85.7779807%" id="linearGradient-4">
+            <stop stop-color="#680DE0" offset="0%"></stop>
+            <stop stop-color="#0538BE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing">
+            <g id="bg1">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <polygon id="Rectangle-2" fill="url(#linearGradient-4)" opacity="0.600000024" mask="url(#mask-3)" points="120 0 311.933594 0 750 693 435 531.105469"></polygon>
+                <polygon id="Rectangle-2-Copy" fill="url(#linearGradient-4)" opacity="0.600000024" mask="url(#mask-3)" points="330 96 521.933594 96 960 789 645 627.105469"></polygon>
+                <polygon id="Rectangle-2-Copy-2" fill="url(#linearGradient-4)" opacity="0.600000024" mask="url(#mask-3)" points="386 46 577.933594 46 1016 739 701 577.105469"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
