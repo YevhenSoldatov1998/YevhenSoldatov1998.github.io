@@ -20,7 +20,9 @@
 	opacity: 1;
 }
 
-
+html{
+	overflow-x: hidden;
+}
 .text-up{
 	text-transform: uppercase;
 }
