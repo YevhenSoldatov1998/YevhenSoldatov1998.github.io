@@ -1,11 +1,6 @@
 $(document).ready(function() {
 	
-new WOW().init();
-
 $(".down_href").mPageScroll2id();
-
-
-
 
  $('.image_open').magnificPopup();
   $('.image-link').magnificPopup({type:'image'});
