@@ -1,0 +1,5 @@
+$(function() {
+
+	$('.href').magnificPopup({});
+	
+});
